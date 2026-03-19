@@ -1,8 +1,10 @@
-import { defineConfig } from 'vitepress'
+import {
+  base: "/",
+  lang: "zh-CN", defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
+  title: "My Awesome ",
   description: "A VitePress Site",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
